@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: thistle;
+            font-family: cursive;
+        }
+        form{
+            border: 3px solid black;
+        }
+        p{
+            display: none;
+        }
+        img{
+            display: none;
+        }
+        input[type=radio]{
+            color:red
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Sign Up form</h2>
+    <form>
+        <fieldset>
+        <table>
+        <tr>
+            <td>
+                <label for="name">Name:</label>
+
+            </td>
+            <td>
+                <input type="name" required id="name">
+                <p>Enter your name</p>
+              
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                 <label for="college">College:</label>
+            </td>
+            <td>
+                <input type="text" required id="College">
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                <label for="primary email">Primary-Email:</label>
+            </td>
+            <td>
+                <input type="Primary email" required id="Primary email">
+                <img class="valid" src="C:\Users\Gayathri\Pictures\Correct.jpeg" height="20px" width="20px">
+                <img  class=invalid src="C:\Users\Gayathri\Pictures\Warning.png" height="20px" width="20px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for secondary email>Secondary-Email:</label>
+            </td>
+            <td>
+                <input type="secondary email" email" required id="secondary email">
+                <img class="valid" src="C:\Users\Gayathri\Pictures\Correct.jpeg" height="20px" width="20px">
+                <img  class=invalid src="C:\Users\Gayathri\Pictures\Warning.png" height="20px" width="20px">
+            
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password:</label>
+            </td>
+            <td>
+                <input type="text" required id="password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">Gender:</label>
+            </td>
+            <td>
+                <input type="radio" required id="Male">
+                <label for="male">Male:</label>
+                <input type="radio" required id="Female">
+                <label for="female">Female:</label>
+                <input type="radio" required id="Others">
+                <label for="others">Others</label><br><br>
+            </td>
+        </tr>  
+        <tr>
+            <td>
+                <label for="age">Age:</label>
+            </td>
+            <td>
+                <input type="age" name="age" required>
+                <img class="valid" src="C:\Users\Gayathri\Pictures\Correct.jpeg" height="20px" width="20px">
+                <img  class=invalid src="C:\Users\Gayathri\Pictures\Warning.png" height="20px" width="20px">
+            
+            </td>
+        </tr>
+        <tr>
+            <td>
+                 <label for="mode">Mode:</label>
+            </td>
+            <td>
+                <input type="text" required name="mode" readonly value="online">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit">
+       
+            </td>
+        </tr>
+        
+        </table> 
+    </fieldset>
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+           <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: blue;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+
+        .card {
+            height: 255px;
+            background: white;
+            padding: 30px 40px 20px 20px;
+            padding-left: 10px;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 6px;
+            background: #667eea;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #5a67d8;
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #667eea;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+   <div class="card">
+    <h2>Login</h2>
+    <form>
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button>Login</button>
+    </form>
+
+    <div class="links">
+        <a href="NewPassword.html">Forgot?</a>
+        <a href="Register.html">New User</a>
+    </div>
+</div>
+
+</body>
+</html>
